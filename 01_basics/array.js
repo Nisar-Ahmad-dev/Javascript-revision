@@ -10,8 +10,12 @@ let test = new Array(1);
 test[0] = 1
 test[1] = 2
 test[2] = 3
-console.log(test);
+// console.log(test);
 
 scores = [1 ,2 ,3 , test]
- scores.push = 5
-console.log(scores);
+ scores.push(5)
+ scores.pop()
+console.log(Array.isArray(scores));
+let result = '5' * 2;
+
+console.log(result);
