@@ -6,10 +6,10 @@ null
 undefined
 Object
 // console.log(typeof age);
-let agestring = Number(age) 
+// let agestring = Number(age) 
 
-console.log(typeof agestring);
-console.log(age);
+// console.log(typeof agestring);
+// console.log(age);
 
-
+const budget =
 // console.log(typeof(undefined));
