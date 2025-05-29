@@ -53,4 +53,26 @@ function average (){
     }
     return console.log(total / arguments.length);
 }
-average(1,2,3,4,5,6,7,8)
+// average(1,2,3,4,5,6,7,8)
+
+// function countDown(fromNumber) {
+//     console.log(fromNumber);
+
+//     let nextNumber = fromNumber - 1;
+
+//     if (nextNumber > 0) {
+//         countDown(nextNumber);
+//     }
+// }
+// countDown(3);
+
+function createDiv(height = '100px', width = '100px', border = 'solid 1px red') {
+    let div = document.createElement('div');
+    div.style.height = height;
+    div.style.width = width;
+    div.style.border = border;
+    document.body.appendChild(div);
+    return div;
+}
+
+createDiv()
